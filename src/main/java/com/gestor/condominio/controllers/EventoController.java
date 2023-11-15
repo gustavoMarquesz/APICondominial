@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/eventos")
-@Api(value = "API REST Propig Data")
+@Api(value = "API REST condomínios")
 @CrossOrigin(origins = "*")
 public class EventoController {
 
