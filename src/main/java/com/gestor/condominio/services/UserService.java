@@ -22,15 +22,10 @@ public class UserService {
         return userRepository.findAll();
     }
 
-    public Optional<User> buscarUsuarioPorId(Long id) {
-        return userRepository.findById(id);
-    }
 
     public void salvarUsuario(User user) {
         userRepository.save(user);
     }
 
-    public void excluirUsuario(Long id) {
-        userRepository.deleteById(id);
-    }
+
 }
